@@ -19,7 +19,7 @@ const About = () => {
         </h2>
         <p className="text-[#444957]  text-[11px] leading-[21px] mt-[21px] mb-4 lg:text-[15px] lg:leading-[27px] lg:mt-[28px] lg:mb-[25px] font-open-sans">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make a type specimen book. t has survived not only
           five centuries.
