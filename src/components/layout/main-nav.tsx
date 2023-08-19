@@ -4,7 +4,7 @@ import React from "react";
 const MainNav = () => {
   return (
     <div>
-      <div className="flex justify-end items-top pr-5 mt-4 lg:pl-[100px] lg:mt-8 absolute w-full z-20 lg:justify-between">
+      <div className="flex justify-end items-top pr-5 mt-4 lg:pl-[100px] lg:mt-8 absolute w-full z-50 lg:justify-between ">
         <Image
           src={
             "/assests/logo.png"
