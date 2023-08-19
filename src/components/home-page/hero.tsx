@@ -4,13 +4,13 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="w-full lg:flex lg:flex-row-reverse lg:justify-between items-center lg:mb-[150px]">
-      <div className="w-full relative max-w-[100vw] lg:w-1/2">
+      <div className=" w-full relative max-w-[100vw] lg:w-1/2 before:bg-[#E23744] before:absolute before:w-screen before:h-[calc(100%_+_26px)] before:left-full z-40 before:-z-10 ">
         <Image
           src="/assests/heroVector.png"
           alt="svg-overlay"
           width={752}
           height={839}
-          className="absolute top-0 left-0 z-10 object-left w-full"
+          className="absolute top-0 left-0 z-10 object-left w-full "
         />
         <Image
           src="/assests/Hero.png"

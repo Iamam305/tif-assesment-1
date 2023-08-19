@@ -3,7 +3,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="bg-[#F0F1F7] py-[140px] px-[50px] lg:flex lg:justify-between lg:py-0 lg:px-[205px]  lg:gap-[200px]">
+    <div className="relative bg-[#F0F1F7] py-[140px] px-[50px] lg:flex lg:justify-between lg:py-0 lg:px-[205px]  lg:gap-[200px] before:bg-[#F0F1F7] before:absolute before:w-screen before:h-full before:left-1/2 before:top-1/2 before:translate-x-[-50%] before:translate-y-[-50%] z-40 before:-z-10">
       <div className="hidden lg:block  min-w-[384px]">
         <Image
           src={"/assests/about.png"}
